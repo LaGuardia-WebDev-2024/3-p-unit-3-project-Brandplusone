@@ -1,79 +1,121 @@
 <!--
 Requirements
-[  ]  tgvwehTTwo Element Selectors
-[ ]Two ID Selectors
-[ yes ] Two Class Selectors
+[yes] Two External Links
+[yes] Table
+[  yes ] Three CSS Rules
 [ yes ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Background Image
-[ no ] Feature 2 - Include Border Radius CSS Property
-[ no ] Feature 3 - Include Horizontal Line
-[ no ] Feature 4 - Embed YouTube Video
-[ no ] Feature 5 - Include Border CSS Property
+[ no ] Feature 1 - Include a :hover feature
+[ no ] Feature 2 - Include at least two Internal links
+[ no ] Feature 3 - Include a list in a tabl
+[ no ] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Project: Recipe book</title>
     <meta charset="utf-8" />
-    <title>Unit 2 Project</title>
+    <style></style>
   </head>
+
   <body>
     <style>
       body {
-        background: rgb(37, 150, 190);
+        background-color: rgb(204, 204, 255);
       }
-
       h1 {
-        color: orange;
+        color: rgb(26, 26, 255);
       }
-
       h2 {
-        color: orange;
+        color: rgb(26, 26, 255);
+      }
+      ul {
+        color: rgb(26, 26, 255);
+      }
+      #cakes{
+        background-color: rgb(296, 222, 255);
+      }
+      table {
+        background-color: pink;
+        border-color: purple;
+        border: 1px solid;
+      }
+      th {
+        border-color: purple;
+        border: 1px solid;
+      }
+      td {
+        border-color: purple;
+        border: 1px solid;
       }
 
-      #thedog {
-        background-color: rgb(191, 146, 21);
-      }
-
-      #dogsong {
-        background-color: rgb(191, 146, 21);
-      }
     </style>
 
-    <h1>All about dogs</h1>
+    <h1>Best chefs's Recipe Book</h1>
+
+    <h2>Contents:</h2>
+
+    <ol>
+      <li>
+        <a href="https://www.peanutbutter.com/recipes/the-classic-peanut-butter-and-jelly-sandwich" target="_blank">Recipe #1</a>
+      </li>
+    </ol>
+
+    <h2 id="/">Recipe #1</h2>
+
+    <ul>
+      <li>Time: 5 minutes</li>
+      <li>Serves: 2 people </li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredient</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tr>
+        <td>Peanut Butter</td>
+        <td>1 Tbsp</td>
+      </tr>
+      <tr>
+        <td>Jelly</td>
+        <td>1 Tbsp</td>
+      </tr>
+      <tr>
+        <td>Bread</td>
+        <td>2 Slices</td>
+      </tr>
+    </table>
+
     <img
-      src="https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg"
+      src=" https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Peanut-Butter-Jelly-Sandwich.jpg/640px-Peanut-Butter-Jelly-Sandwich.jpg"
       width="200"
     />
+    
+    <p id="cakes"> <strong>Step 1:</strong> get bread of your choice <br>
+    <strong>Step 2:</strong> apply peaunt butter to a slice of bread  <br>
+    <strong>Step 3:</strong> apply jelly to other slice of bread<br>
+    <strong>Step 4:</strong>put the spreaded side on each other symetriclly <br> 
+    <strong>Step 5:</strong> cut diagonally and enjoy<br>
 
-    <p id="thedog">
-      The <strong> dog </strong> is a pet animal and is considered to be one of
-      the most obedient animals. <br />There are various kinds of dogs in the
-      world, and some of them are known to be very <br />friendly while some are
-      dangerous. There are various species of dogs that we come across,<br />
-      and some have slippery shiny skin, while others have rough skin. Dogs are
-      carnivorous<br />
-      animals and they like eating meat
+    <p>
+      <em>Source: <a href="https://www.allrecipes.com/recipe/49943/grilled-peanut-butter-and-jelly-sandwich/" target="blank_">Some recipes websites</a></em>
     </p>
-    <br />
 
-    <h2>Dog song</h2>
-    <p id="dogsong">
-      I'm just a walkin' my dog Singin' my song Strollin' along It's just me and
-      my dog Catchin' some sun We can't go wrong
-    </p>
-    <h2>Cute dogs</h2>
-    <h2 id="cute dog"></h2>
-
+    
+    <br>
     <img
-      src="https://www.cdc.gov/healthy-pets/media/images/2024/04/GettyImages-598175960-cute-dog-headshot.jpg"
+      src="https://yummynotes.net/wp-content/uploads/2018/11/Peanut-Butter-Banana-and-Jelly-Sandwich-585x585.jpg"
       width="200"
     />
-    <br />
+    <br>
     <img
-      src="https://image.petmd.com/files/inline-images/small-dogs-bichon-frise.jpg?VersionId=_sYMy3g.KeuqSjkDOWZmCyQNae5TFsu0"
+      src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Peanut-Butter-and-Jelly-French-Toast_EXPS_BMZ19_526_B12_04_10b.jpg"
       width="200"
     />
   </body>
